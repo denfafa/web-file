@@ -1,0 +1,589 @@
+﻿/*
+June 2014
+http://ThemeKings.net
+Designed By: Todd Swift
+Last Revised 06/2015
+*/
+/* ==================== BODY, COLUMNS & CONTAINERS ==================== */
+body {
+	background-image: url(https://ucarecdn.com/cec0d81e-151d-4bc6-b364-76a808459d9e/topbgnd.jpg');
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	font-family: 'Aldrich', sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+	background-color: #000;
+}
+#container {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	width: 1010px;
+}
+#banner {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	width: 1010px;
+	height: 274px;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/06c67814-68d9-4625-809c-a47219073e74/banner.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+a:link {
+	color: #03DAF1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:active{
+	color: #03DAF1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:visited {
+	color: #03DAF1;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #57ECFD;
+	font-weight: bold;
+	text-decoration: none;
+}
+/* ==================== HORIZONTAL NAVIGATION MENU ==================== */
+#hz-menu {
+	margin: 24px 0px 0px 12px;
+	padding: 0px;
+	width: 705px;
+	height: 90px;
+	position: relative;
+	overflow: visible;
+	list-style-type: none;
+}
+#hz-menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#hz-menu ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 141px;
+	height: 90px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 130%;
+	color: #759398;
+}
+a.hbutton {
+	background: url(https://ucarecdn.com/b27fcf89-1b43-4fd3-b7ce-e6a4556d4541/navbutn.jpg') no-repeat 0px -90px;
+	width: 141px;
+	height: 90px;
+	display: block;
+	text-decoration: none;
+	color: #759398;
+}
+a.hbutton:hover {
+	background-position: 0px 0px;
+	text-decoration: none;
+	color: #A4C2C5;
+}
+a.hbutton:active {
+	background-position: 0px -90px;
+	text-decoration: none;
+	color: #759398;
+}
+/* ==================== Banner ==================== */
+#banner-area {
+	padding: 0px;
+	margin: 6px auto 0px auto;
+	width: 996px;
+	height: 152px;
+	position: relative;
+}
+/* ==================== MEDIA ZONE ==================== */
+#media-zone {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 1010px;
+	height: 228px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/c9cac17a-dcaa-4d67-9796-d77835ff31db/mediazonebgnd.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+#media-top {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 994px;
+	height: 52px;
+	background-image: url(https://ucarecdn.com/535f4c21-3283-4283-a9d4-46f346330038/mediatop.png');
+	background-position: center top;
+}
+#media-block {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 1002px;
+	height: 166px;
+	position: relative;
+}
+#leftcol {
+	background-position: center top;
+	position: relative;
+	float: left;
+	width: 328px;
+	padding: 0px;
+	height: 166px;
+	margin: 0px 0px 0px 4px;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/70e8ca5b-ee5b-404c-a81d-a2f0aaee31aa/media1.png);
+	background-repeat: no-repeat;
+}
+#centercol {
+	position: relative;
+	padding: 0px;
+	width: 328px;
+	height: 166px;
+	float: left;
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0px 0px 0px 5px;
+	background-image: url(https://ucarecdn.com/70e8ca5b-ee5b-404c-a81d-a2f0aaee31aa/media1.png');
+	background-repeat: no-repeat;
+}
+#rightcol {
+	position: relative;
+	float: left;
+	width: 328px;
+	padding: 0px;
+	height: 166px;
+	margin: 0px 0px 0px 5px;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/70e8ca5b-ee5b-404c-a81d-a2f0aaee31aa/media1.png);
+	background-repeat: no-repeat;
+}
+.media-info {
+	padding: 0px;
+	margin: 8px auto 0px auto;
+	width: 316px;
+	height: 118px;
+	overflow: hidden;
+	font-size: 90%;
+	font-weight: normal;
+	color: #09171A;
+	font-style: normal;
+	text-align: left;
+}
+.media-info-title {
+	padding: 0px;
+	margin: 5px auto 8px auto;
+	width: 314px;
+	height: 18px;
+	position: relative;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: left;
+	color: #09171A;
+}
+
+/* ==================== CONTENT SECTION ==================== */
+#cnt-fill {
+	background-image: url(https://ucarecdn.com/7fe38b82-39ec-45ec-9fcc-735b7efb095e/cntfiller.jpg);
+	background-position: center top;
+	background-repeat: repeat-y;
+	padding: 0px;
+	margin: 0px;
+	width: 1010px;
+	overflow: hidden;
+}
+#col-l {
+	padding: 0px;
+	margin: 12px 0px 0px 14px;
+	width: 258px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+#col-r {
+	padding: 0px;
+	margin: 15px 14px 0px 0px;
+	width: 718px;
+	position: relative;
+	float: right;
+	overflow: hidden;
+}
+.sb-block {
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	width: 258px;
+	position: relative;
+	overflow: hidden;
+}
+.sb-top {
+	background-image: url(https://ucarecdn.com/78e7345f-099b-4e8e-ae92-0773e5ed8c89/sbtop.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	width: 258px;
+	height: 72px;
+	position: relative;
+}
+.sb-filler {
+	background-image: url(https://ucarecdn.com/3c6ac911-b108-4cbb-8704-fd88587bae9c/sbfill.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	width: 258px;
+	position: relative;
+}
+.sb-btm {
+	background-image: url(https://ucarecdn.com/23b7d9ee-9e86-45e9-8ca9-58e7614fa0de/sbft.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin: 0px;
+	padding: 0px;
+	width: 258px;
+	height: 72px;
+	position: relative;
+}
+h1 {
+	margin: 0px;
+	width: 718px;
+	height: 80px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/9cb2604d-89b1-45c6-9b0c-ddd2638a5b14/headerbar2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #03B1C7;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	line-height: 82px;
+}
+h2 {
+	margin: 0px;
+	width: 718px;
+	height: 80px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/9cb2604d-89b1-45c6-9b0c-ddd2638a5b14/headerbar2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #03B1C7;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	line-height: 82px;
+}
+h3 {
+	margin: 0px;
+	width: 718px;
+	height: 80px;
+	position: relative;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/9cb2604d-89b1-45c6-9b0c-ddd2638a5b14/headerbar2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	color: #03B1C7;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	line-height: 82px;
+}
+.cnt-info {
+	padding: 0px;
+	margin: 0px auto 10px auto;
+	width: 650px;
+	position: relative;
+	overflow: hidden;
+	color: #4D6877;
+	font-size: 100%;
+}
+.sb-title {
+	padding: 25px 0px 0px 0px;
+	margin: 0px auto 0px auto;
+	width: 170px;
+	position: relative;
+	overflow: hidden;
+	color: #03B1C7;
+	font-weight: bold;
+	text-align: center;
+	height: 20px;
+	font-size: 110%;
+}
+.sb-info {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	color: #03B1C7;
+}
+.lb-butns {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 200px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.lb-butns ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.lb-butns ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 210px;
+	height: 22px;
+	position: relative;
+	overflow: hidden;
+	font-size: 90%;
+	line-height: 25px;
+}
+.lb-butns1:link, .lb-butns1:active, .lb-butns1:visited {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+	background: url(https://ucarecdn.com/694cb4a4-bf0c-4736-be15-13e4c7fcf5d0/sbbutn.png) no-repeat center top;
+	width: 200px;
+	height: 22px;
+	display: block;
+	color: #03B1C7;
+	text-decoration: none;
+	position: relative;
+	font-weight: normal;
+	text-indent: 5px;
+}
+.lb-butns1:hover {
+	background-position: 0px -22px;
+	color: #03DAF1;
+	text-decoration: none;
+}
+/* ==================== FOOTER ==================== */
+#footer {
+	padding: 0px;
+	margin: 0px;
+	height: 178px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-image: url(https://ucarecdn.com/3f2c2d02-1db9-43b2-a9f5-4978e6efb6f9/ftfiller.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+#ft-cnt {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	width: 990px;
+	height: 178px;
+	position: relative;
+	background-image: url(https://ucarecdn.com/8d69cd6a-d54c-494e-ad75-cc0bd1d528f3/footerbgnd.jpg);
+	background-repeat: no-repeat;
+}
+.top-page {
+	padding: 19px 0px 0px 0px;
+	margin: 0px auto 5px auto;
+	width: 100px;
+	height: 32px;
+	position: relative;
+	list-style-type: none;
+}
+.top-page ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.top-page ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+.PTlink {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	width: 100px;
+	height: 32px;
+	background: url(https://ucarecdn.com/28b9c595-8f9a-48d4-8872-ef093f5c7a0f/upover.png) no-repeat 0px 0px;
+	overflow: hidden;
+	position: relative;
+	list-style-type: none;
+}
+.PTlink:hover {
+	background: url(https://ucarecdn.com/28b9c595-8f9a-48d4-8872-ef093f5c7a0f/upover.png) no-repeat 0px -32px;
+}
+.ft-ColBoxL {
+	padding: 0px;
+	margin: 5px 4px 5px 4px;
+	width: 320px;
+	height: 90px;
+	position: relative;
+	float: left;
+	display: inline;
+	text-align: center;
+	color: #1F6775;
+	font-size: 80%;
+}
+.ft-ColBoxM {
+	padding: 0px;
+	margin: 5px 4px 5px 4px;
+	width: 320px;
+	height: 90px;
+	position: relative;
+	float: left;
+	display: inline;
+	text-align: center;
+	color: #1F6775;
+	font-size: 80%;
+}
+.ft-ColBoxR {
+	padding: 0px;
+	margin: 5px 4px 5px 4px;
+	width: 320px;
+	height: 90px;
+	position: relative;
+	float: left;
+	display: inline;
+	text-align: left;
+	color: #1F6775;
+}
+.ft-site-name {
+	padding: 0px;
+	margin: 0px auto 5px auto;
+	font-size: 90%;
+	font-weight: bold;
+	color: #1F6775;
+	text-align: center;
+}
+.ft-site-contact {
+	padding: 0px;
+	margin: 0px auto 5px auto;
+	font-size: 80%;
+	font-weight: normal;
+	color: #1F6775;
+	text-align: center;
+}
+.ft-site-contact {
+	padding: 0px;
+	margin: 0px auto 5px auto;
+	font-size: 80%;
+	font-weight: normal;
+	color: #1F6775;
+	text-align: center;
+}
+.ft-site-email {
+	padding: 0px;
+	margin: 0px auto 5px auto;
+	font-size: 80%;
+	font-weight: normal;
+	color: #1F6775;
+	text-align: center;
+}
+.ft-site-copyright {
+	padding: 0px;
+	margin: 0px auto 5px auto;
+	font-size: 80%;
+	font-weight: normal;
+	color: #1F6775;
+	text-align: center;
+}
+/* ==================== SOCIAL MEDIA ==================== */
+#sm-menu {
+	margin: 10px auto 0px auto;
+	padding: 0px;
+	width: 230px;
+	height: 46px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+}
+#sm-menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#sm-menu ul li {
+	padding: 0px;
+	margin: 0px;
+	width: 46px;
+	height: 46px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+
+a.FBbutton {
+	background: url(https://ucarecdn.com/84a45b23-b66f-4a55-9141-312551fef4b5/facebook.jpg) no-repeat 0 0px;
+	width: 46px;
+	height: 46px;
+	display: block;
+}
+a.FBbutton:hover {
+	background-position: 0 -46px;
+}
+
+a.TWbutton {
+	background: url(https://ucarecdn.com/b07ff846-9d1a-4839-947a-4b9508f75e8f/twitter.jpg) no-repeat 0 0px;
+	width: 46px;
+	height: 46px;
+	display: block;
+}
+a.TWbutton:hover {
+	background-position: 0 -46px;
+}
+
+a.GPbutton {
+	background: url(https://ucarecdn.com/bac0d6f2-186d-43fd-ad8d-bb00ec47c8b6/google.jpg) no-repeat 0 0px;
+	width: 46px;
+	height: 46px;
+	display: block;
+}
+a.GPbutton:hover {
+	background-position: 0 -46px;
+}
+
+a.IGbutton {
+	background: url(https://ucarecdn.com/d0b9df49-5e04-49fd-9d47-f716b363e370/instagram.jpg) no-repeat 0 0px;
+	width: 46px;
+	height: 46px;
+	display: block;
+}
+a.IGbutton:hover {
+	background-position: 0 -46px;
+}
+
+a.YTbutton {
+	background: url(https://ucarecdn.com/4e0e5b7e-5b50-4e6d-b88f-dc86d412ea3c/youtube.jpg) no-repeat 0 0px;
+	width: 46px;
+	height: 46px;
+	display: block;
+}
+a.YTbutton:hover {
+	background-position: 0 -46px;
+}
+
+
